@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../webfonts/icomoon.eot");
+  src: url("../webfonts/icomoon.eot") format("embedded-opentype"),
+    url("../webfonts/icomoon.ttf") format("truetype"),
+    url("../webfonts/icomoon.woff") format("woff"),
+    url("../webfonts/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope-bold:before {
+  content: "\e900";
+}
+.icon-phone-bold:before {
+  content: "\e901";
+}
+.icon-whatsapp-brands:before {
+  content: "\e902";
+}
+.icon-facebook-brands-circle:before {
+  content: "\e903";
+}
+.icon-instagram-brands:before {
+  content: "\e906";
+}
+.icon-linkedin-brands:before {
+  content: "\e907";
+}
+.icon-checvron-left:before {
+  content: "\e904";
+}
+.icon-checvron-right:before {
+  content: "\e905";
+}
